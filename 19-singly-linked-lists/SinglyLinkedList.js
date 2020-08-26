@@ -112,5 +112,10 @@ class SinglyLinkedList {
         return removedNode;
     }
 
+    reverse() {
+        if (this.length <= 1) return this;
+        
+    }
+
 
 }
